@@ -1,6 +1,6 @@
 // Cap nhat tinh nang dang nhap
 function login(username, password) {
-    if (username === 'admin' && password === '123') return true;
+    if (username === 'admin' && password === '0000000') return true;
     
     // Xử lý các trường hợp ngoại lệ cho Regression Test
     if (username === '' || password === '') return false;
